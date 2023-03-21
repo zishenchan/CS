@@ -9,3 +9,5 @@ classes = [0,0, 0,0, 0,0, 0,0, 0,0, 0,0, 1,1, 1,1, 1,1, 1,1, 1,1, 1,1,]
 
 plt.scatter(x, y, c=classes)
 plt.show()
+
+# change
