@@ -1,12 +1,19 @@
-# we guess number from computer
+# we guess a number from computer
+
 import random
 def guess_number(n):
-    # return a random integer between (a,b)
+
+    # computer make up a number
     num = random.randint(1,range_number) 
+    
     while n != num:
+
+        # for valid number input
         if n < 1 or n > range_number:
             print("Sorry, please input a valid number: ")
             n = int(input("Guess a number again: "))
+        
+        # guess number
         elif n > num:
             print(f"Sorry, your number {n} is larger, try again")
             n = int(input("Guess a number again: "))
